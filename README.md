@@ -1,16 +1,47 @@
-# React + Vite
+# BMI-Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and user-friendly Body Mass Index (BMI) Calculator built with React and Vite.  
+This app allows users to quickly calculate their BMI based on height and weight inputs, providing instant feedback on their health status.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Calculate BMI instantly by entering height and weight
+- Clean and responsive user interface
+- Displays BMI value and health category (Underweight, Normal, Overweight, etc.)
+- Built with React for fast and interactive experience
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/BMI-Calculator.git
+   cd BMI-Calculator
+   ```
 
-## Expanding the ESLint configuration
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:5173](http://localhost:5173) in your browser to use the calculator.
+
+## Folder Structure
+
+- `src/components/` – React components for the calculator UI
+- `src/App.jsx` – Main application logic
+- index.html – Main HTML file
+
+## Sceenshot
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d8d8f5b0-c7fa-4bc4-b8f5-7873cccd8ef8" />
+
+
+## License
+
+This project is open source and available under the MIT License.
+
+---

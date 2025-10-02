@@ -1,0 +1,150 @@
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  background: #ffffff;
+  color: #333;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #6a11cb;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #6a11cb;
+}
+
+input {
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 2px solid #6a11cb;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #2575fc;
+}
+
+button {
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.btn {
+  background: #6a11cb;
+  color: #fff;
+}
+
+button.btn:hover {
+  background: #2575fc;
+}
+
+button.btn-outline {
+  background: transparent;
+  color: #6a11cb;
+  border: 2px solid #6a11cb;
+}
+
+button.btn-outline:hover {
+  background: #6a11cb;
+  color: #fff;
+}
+
+.center {
+  margin-top: 1.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #2575fc;
+}
+
+h3 {
+  font-size: 1.2rem;
+  color: #6a11cb;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .App {
+    width: 95%;
+    padding: 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  input {
+    font-size: 0.9rem;
+    padding: 0.7rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 0.7rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  input {
+    font-size: 0.8rem;
+    padding: 0.6rem;
+  }
+
+  button {
+    font-size: 0.8rem;
+    padding: 0.6rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 0.9rem;
+  }
+}
